@@ -1,13 +1,23 @@
-# ecommerce_chatbot
-## Features
-- Product search via chatbot
-- User authentication
-- Session management
-- Responsive design
+# Ecommerce Chatbot
 
-## Quick Start
-1. Setup backend
-2. Setup frontend
-3. Access at http://localhost:3000
+## Project Overview
+This full-stack application combines a React frontend with Flask backend to deliver an AI-powered shopping assistant. The chatbot understands natural language queries about products, order status, and provides customer support through an intuitive chat interface.
 
-## ... [comprehensive README content] ...
+## Setup Instructions
+1. **Clone the repository**:
+   git clone        https://github.com/ayushchand18/ecommerce_chatbot.git
+   cd ecommerce-chatbot
+
+2. **Backend Setup**
+   cd backend
+   pip install -r requirements.txt
+
+3. **Frontend Setup**
+   cd ../frontend
+   npm install
+## Running the Application
+   # Terminal 1 - Backend (http://localhost:5000)
+cd backend && python app.py
+
+# Terminal 2 - Frontend (http://localhost:3000)
+cd ../frontend && npm start
